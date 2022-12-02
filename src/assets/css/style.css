@@ -4306,4 +4306,17 @@ h5.modal-title img {
      object-fit: cover;
   margin: 0 auto;
 }
+
+.fancybox-button svg path {
+  fill: #fff;
+  stroke: #fff;
+}
+
+.fancybox-image {
+  background: #fff;
+}
+
+.fancybox-infobar span {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
