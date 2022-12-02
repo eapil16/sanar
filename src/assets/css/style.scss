@@ -3558,10 +3558,62 @@ h5.modal-title  {
   }
 }
 
-
-
-
-
 .header-search-result {
   display: none;
+}
+
+
+// 2 12
+
+.product-image__new {
+  z-index: 10;
+}
+.product-image img {
+  border: 0px; 
+  background: transparent;
+  border-radius: 0; 
+}
+.mySwiper2 {
+  .swiper-slide {
+    border: 1px solid #E6EEF5; 
+    background: #fff; 
+    border-radius: 4px; 
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  }
+  .swiper-buttons {
+    bottom: calc(50% - 15px);
+    right: 15px;
+    left: 15px;
+    justify-content: space-between;
+    .swiper-next {
+      background: #E6EEF5;
+      &:hover {
+        background: #d9e0e7;
+      }
+    }
+    .swiper-prev {
+      background: #E6EEF5;
+      &:hover {
+        background: #d9e0e7;
+      }
+    }
+  }
+}
+.mySwiper {
+  margin: 10px 0 0 0;
+  .swiper-slide {
+    background: #fff; 
+    border-radius: 4px; 
+    img {
+      width: auto;
+      height: 75px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+  }
 }

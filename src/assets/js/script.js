@@ -122,4 +122,25 @@ document.addEventListener('DOMContentLoaded', () => {
         $('select').styler();
     }, 100)
     
+    // 02 11
+
+    const swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        loop: true,  
+        watchSlidesProgress: true,
+    });
+    const swiper2 = new Swiper(".mySwiper2", {
+        spaceBetween: 0,
+        loop: true,  
+        navigation: {
+          nextEl: ".product-next",
+          prevEl: ".product-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+    });
+
 });
